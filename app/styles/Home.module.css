@@ -1,0 +1,11 @@
+/* styles/Home.module.css */
+
+.images {
+    position: absolute;
+    right: 10%;
+  }
+  
+  .images Image {
+    position: absolute;
+  }
+  
