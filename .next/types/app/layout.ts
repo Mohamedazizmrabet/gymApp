@@ -1,4 +1,4 @@
-// File: C:\Users\Mega-PC\Desktop\gymApp\my-app\app\layout.tsx
+// File: C:\Users\Mega-PC\Desktop\the-app\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

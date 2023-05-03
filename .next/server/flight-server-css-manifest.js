@@ -1,19 +1,19 @@
 self.__RSC_CSS_MANIFEST={
   "cssImports": {
-    "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\layout.tsx": [
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\globals.css"
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\page.tsx": [
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\styles\\Home.module.css"
     ],
-    "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\page.tsx": [
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\styles\\Home.module.css"
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\layout.tsx": [
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\globals.css"
     ]
   },
   "cssModules": {
-    "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\page": [
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\styles\\Home.module.css",
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\app\\globals.css",
-      "C:\\Users\\Mega-PC\\Desktop\\gymApp\\my-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\page": [
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\styles\\Home.module.css",
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\globals.css",
+      "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
 }
