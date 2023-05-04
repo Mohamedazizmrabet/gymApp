@@ -3422,6 +3422,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./comp/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./comp/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./comp/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./comp/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -3593,41 +3619,15 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./comp/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./comp/Navbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./comp/Navbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./comp/Navbar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -11071,6 +11071,44 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx": {
+      "id": "(app-client)/./comp/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx#": {
+      "id": "(app-client)/./comp/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx#default": {
+      "id": "(app-client)/./comp/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
@@ -11930,44 +11968,6 @@ self.__RSC_MANIFEST={
       "name": "warnOnce",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx": {
-      "id": "(app-client)/./comp/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx#": {
-      "id": "(app-client)/./comp/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Mega-PC\\Desktop\\the-app\\comp\\Navbar.tsx#default": {
-      "id": "(app-client)/./comp/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
