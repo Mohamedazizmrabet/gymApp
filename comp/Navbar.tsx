@@ -3,10 +3,11 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
-  { name: 'WORKOUTS', href: '#', current: true },
+  { name: 'WORKOUTS', href: '#', current: false },
   { name: 'PROGRAMS', href: '#', current: false },
   { name: 'HEATHY LIVING', href: '#', current: false },
   { name: 'ABOUT', href: '#', current: false },
+  {name:"exercice",href:"/exercice",current:false}
 ]
 
 function classNames(...classes:any) {
@@ -33,6 +34,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
+                  <a href="/">
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
@@ -43,6 +45,7 @@ export default function Example() {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

@@ -10,9 +10,9 @@ function AllExercises({ exercises }: ExerciseProps) {
     <div>
      {exercises.exercise_name}
      {exercises.Difficulty}
-     {/* <video  controls  >
+     <video  controls  >
       <source src={exercises.videoURL[0]} />
-     </video> */}
+     </video>
     </div>
   );
 }

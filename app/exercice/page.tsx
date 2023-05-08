@@ -48,7 +48,7 @@ export default function Index() {
 
   return (
     <div>
-      <button
+      <button className="bg-white "
         onClick={() => {
           paginationRoles(1);
           ;
@@ -56,14 +56,15 @@ export default function Index() {
       >
         next
       </button>
-      <button
+      <button className="bg-white "
         onClick={() => {
           paginationRoles(1);
         }}
       >
         prev
       </button>
-      <div className="grid grid-rows-3 grid-cols-3 sm">
+      <input type="text" id="" className="bg-white " />
+      <div className="grid grid-rows-3 grid-cols-3 gap-3.5	 sm text-white	">
         {muscle.map((e: ExerciseType, i: number) => (
           <div key={i}>
             <Allexercices exercises={e} />
