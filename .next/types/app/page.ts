@@ -1,4 +1,4 @@
-// File: C:\Users\Mega-PC\Desktop\aloneWork\gymApp\app\page.tsx
+// File: C:\Users\Mega-PC\Desktop\Nouveau dossier\gymApp\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

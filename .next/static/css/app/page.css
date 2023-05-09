@@ -1,3 +1,55 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/styles/Home.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/* styles/Home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:wght@500&display=swap');
+.Home_images__2pIKM {
+    width: 100vh;
+    max-width: 80%;
+    max-height: 80%;
+    height: 80%;
+
+  }
+  .Home_images__2pIKM .Home_img1__6oMuK{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+
+    
+  }
+  
+  .Home_images__2pIKM .Home_img2__iDwi1 {
+    /* background-color: red; */
+    position: absolute;
+    top: 30%;
+    right: 5%;
+
+  }
+  .Home_images__2pIKM .Home_img3__6jE0S {
+    position: absolute;
+    bottom: 0%;
+    right: 35%;
+
+  }
+  .Home_title1__WB3b0{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  .Home_title2__Md2eb{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  .Home_title__VOykY{
+    margin-top: 10%;
+  }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[3].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\page.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -67,55 +119,3 @@
 }.__className_0ec1f4 {font-family: '__Inter_0ec1f4', '__Inter_Fallback_0ec1f4';font-style: normal
 }
 
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/styles/Home.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-/* styles/Home.module.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:wght@500&display=swap');
-.Home_images__2pIKM {
-    width: 100vh;
-    max-width: 80%;
-    max-height: 80%;
-    height: 80%;
-
-  }
-  .Home_images__2pIKM .Home_img1__6oMuK{
-    position: absolute;
-    top: 15%;
-    right: 15%;
-
-    
-  }
-  
-  .Home_images__2pIKM .Home_img2__iDwi1 {
-    /* background-color: red; */
-    position: absolute;
-    top: 30%;
-    right: 5%;
-
-  }
-  .Home_images__2pIKM .Home_img3__6jE0S {
-    position: absolute;
-    bottom: 0%;
-    right: 35%;
-
-  }
-  .Home_title1__WB3b0{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 10%;
-    font-size: 100px;
-    font-weight: bolder;
-  }
-  .Home_title2__Md2eb{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20%;
-    margin-left: 10%;
-    font-size: 100px;
-    font-weight: bolder;
-  }
-  .Home_title__VOykY{
-    margin-top: 10%;
-  }
