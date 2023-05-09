@@ -2,7 +2,10 @@
 import React, { useState, useEffect } from "react";
 import Allexercice from "../../lib/exerciceAll";
 import Allexercices from "@/comp/Allexercices";
+import Image from "next/image";
 export default function Index() {
+  const array1=["/abs.jpeg","/ass.jpeg","/back.jpeg","/backlegs.jpeg","/biceps.jpeg","/chest.jpeg","/culves.jpeg","/frontLegs.jpeg","/triceps.jpeg"]
+
   console.log("1");
   const [muscle, setmuscle] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -63,8 +66,14 @@ export default function Index() {
       >
         prev
       </button>
+      {array1.map((e:string,i:number)=>(
+        <div key={i} className="grid grid-rows-3 grid-cols-3 gap-2 sm text-white	">
+
+          <Image src={e} alt={e}  width={200} height={200}/>
+        </div>
+      ))}
       <input type="text" id="" className="bg-white " />
-      <div className="grid grid-rows-3 grid-cols-3 gap-3.5	 sm text-white	">
+      <div className="grid grid-rows-3 grid-cols-3 gap-3.5 sm text-white	">
         {muscle.map((e: ExerciseType, i: number) => (
           <div key={i}>
             <Allexercices exercises={e} />
